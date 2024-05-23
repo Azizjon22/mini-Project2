@@ -1,0 +1,617 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: #1C2833;
+    max-width: 1440px;
+}
+
+.logo__img{
+    padding-left: 135px;
+}
+
+.navbar__ul{
+    margin: 0 auto;
+    padding-left: 410px;
+    display: flex;
+    gap: 30px;
+}
+
+
+
+.navbar__ul ul {
+    display:flex;
+    gap: 60px;
+}
+.navbar__ul button{
+    width: 132px;
+height: 42px;
+
+
+/* Gardient */
+
+background: linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);
+border-radius: 5px;
+}
+
+.karta{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+
+.title__card h1{
+    text-align: left;
+    font-family: 'DM Sans'sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 58px;
+line-height: 84px;
+/* or 145% */
+
+letter-spacing: 0.02em;
+background: linear-gradient(89.83deg, #2563EB 0.11%, #D946EF 58.65%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text; 
+background-clip: text;
+
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
+}
+
+.title__card p{
+    font-family: 'DM Sans'sans-serif;
+    text-align: left;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 30px;
+/* or 200% */
+
+
+color: #E5E7EB;
+
+opacity: 0.8;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
+}
+
+.title__card .btn{
+    width: 135px;
+height: 61px;
+/* Gardient */
+
+background: linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);
+border-radius: 6px;
+
+position: relative;
+}
+.title__card span{
+    position: absolute;
+    left: 160px;
+    bottom: 15px;
+}
+
+article {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: column;
+    margin-top: 127px;
+}
+
+
+article h2{
+    font-family: 'DM Sans'sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: 55px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+article p{
+    font-family: 'DM Sans'sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+padding-top: 30px;
+line-height: 26px;
+/* or 162% */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.header_cards{
+   display: flex;
+   gap: 30px;
+   
+}
+
+.card_title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+    width: 350px;
+    height: 336px;
+    margin-top: 40px;
+
+
+background: linear-gradient(268.12deg, rgba(254, 254, 255, 0.032) -11.04%, rgba(255, 255, 255, 0.018) 104.89%);
+/* Shadow  */
+
+box-shadow: 0px 22px 18px rgba(0, 0, 0, 0.05);
+border-radius: 34px;
+}
+.card_title .img__file{
+    width: 74px;
+    height: 74px;
+    background: linear-gradient(180deg, #8A7FD9 0%, #402F8F 100%);
+border-radius: 55px;
+}
+.card_title h4{
+    font-family: 'DM Sans'sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    
+    color: #FFFFFF;
+}
+
+
+
+.card_title p{
+    
+font-family: 'DM Sans'sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+
+color: #FFFFFF;
+
+}
+
+.past_card{
+    margin-top: 40px;
+}
+
+
+.col6__titile h2{
+   
+font-family: 'DM Sans'sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: 55px;
+
+color: #FFFFFF;
+
+}
+
+.col6__titile p{
+    
+font-family: 'DM Sans'sans-serif    ;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+
+color: #FFFFFF
+}
+
+.karta2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 120px;
+    
+}
+
+.fotomate img{
+    margin-right: 50px;
+}
+.karta2__title{
+    text-align: center;
+    align-items: center;
+}
+
+
+.karta2__title h2{
+    
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: 55px;
+
+color: #FFFFFF;
+}
+
+.karta2__title p{
+    
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+
+color: #FFFFFF;
+
+}
+
+.karta2__title .btn{
+    
+width: 99px;
+height: 31px;
+/* Gardient */
+background: linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);
+border-radius: 4px;
+margin-right: 380px;
+
+font-family: 'DM Sans'sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+
+color: #FFFFFF;
+}
+
+article .text{
+    color: white;
+}
+
+.cards__cards{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.bol-2{
+    width: 270px;
+height: 266px;
+background: linear-gradient(268.12deg, rgba(254, 254, 255, 0.032) -11.04%, rgba(255, 255, 255, 0.018) 104.89%);
+/* Shadow  */
+
+box-shadow: 0px 22px 18px rgba(0, 0, 0, 0.05);
+border-radius: 34px;
+}
+
+.bol-2 h3{
+    font-family: 'DM Sans'sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 36px;
+
+color: #FFFFFF;
+}
+
+
+.bol-2 p{
+    
+font-family: 'DM Sans'sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+/* identical to box height */
+
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+
+
+.input_center{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.input_ogil{
+    width: 1170px;
+    height: 295px;
+
+
+     /* Bg */
+
+   background: linear-gradient(180deg, rgba(254, 254, 255, 0.0145) 0%, rgba(255, 255, 255, 0.02) 100%);
+   /* Shadow  */
+
+   box-shadow: 0px 22px 18px rgba(0, 0, 0, 0.05);
+   border-radius: 34px;
+}
+
+
+.input_ogil h1{
+    
+font-family: 'DM Sans'sans-serif;
+padding-top: 50px;
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: 55px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+.input_ogil p{
+    font-family: 'Roboto'sans-serif;
+font-style: normal;
+padding-top: 13px;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+.form input{
+    position: relative;
+    width: 860px;
+    display: flex;
+height: 80px;
+align-items: center;
+justify-content: center;
+margin-left: 150px;
+
+
+background: linear-gradient(180deg, rgba(254, 254, 255, 0.0348) 0%, rgba(255, 255, 255, 0.048) 100%);
+box-shadow: 10px 24px 54px rgba(0, 0, 0, 0.07);
+border-radius: 70px;
+}
+
+.input_ogil .btn{
+    
+margin-right: 25px;
+
+/* Gardient */
+
+background: linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);
+opacity: 0.9;
+border-radius: 70px;
+font-family: 'Rubik'sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height, or 150% */
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+.footer_fot{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.navbar_footer ul li{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    padding-left: 50px;
+    
+}
+
+.navbar_footer ul li a{
+    text-decoration: none;
+    
+font-family: 'DM Sans'sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 14px;
+/* identical to box height, or 100% */
+
+
+color: rgba(255, 255, 255, 0.8);
+    padding-left: 50px;
+}
+
+.navbar_footer{
+    margin: 0 auto;
+    padding-left: 50px;
+}
+
+.footer__title h5{
+    padding-left: 180px;
+}
+
+
+@media (min-width:0) and (max-width:577px){
+
+    body{
+        max-width: 577px;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+    }
+    .navbar__ul ,.navbaryoq  {
+        display: none;
+    }
+    .btn {
+        text-decoration: none;
+    }
+    .media_nav{
+        width: 576px;
+    }
+
+    .navbar{
+        width: 100%;
+    }
+
+    .karta{
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+    .karta h1{
+        font-size: 50px;
+        font-weight: 200;
+        text-align: left;
+    }
+    .karta img{
+      display: none;
+    }
+
+    .vertual__foto{
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .div img{
+        width: 100%;
+        padding-top: 25px;
+        background-size: 100%;
+    }
+
+  .karta .btn{
+    margin-right: 80px;
+  }
+    
+    .input_ogil{
+        width: 100%;
+        
+    }
+
+    .input_ogil h1{
+        padding: 0;
+    }
+
+    .form input{
+       width: 350px;
+       margin-bottom: 50px;
+       display: flex;
+       text-align:left ;
+       align-items: center;
+       justify-content: center;
+       padding-right: 35px;
+       
+    }
+    .input_center button{
+        margin: 0;
+        padding: 0;
+        width: 50px;
+        display: none;
+    }
+
+    .title__card img{
+        display: none;
+    }
+
+    .header_cards{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+   
+    .karta2{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+
+    .footer__title{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        
+        margin-right: 170px;
+    }
+    .navbar_footer{
+        display: none;
+    }
+    .media_nav .btnn{
+        width: 132px;
+    height: 42px;
+    
+    
+    /* Gardient */
+    
+    background: linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);
+    border-radius: 5px;
+    }
+
+    form{
+        padding-bottom: 20px;
+    }
+}
+
+
+@media (min-width:577px) and (max-width:1440px){
+    .media_nav{
+        display: none;
+    }
+
+    .vertual__foto{
+        display: none;
+    }
+}
+
+
+@media (min-width:1440px) and (max-width:1920px){
+    .media_nav{
+        display: none;
+        
+    }
+    .vertual__foto{
+        display: none;
+    }
+}
